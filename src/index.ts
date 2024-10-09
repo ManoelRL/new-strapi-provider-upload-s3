@@ -68,7 +68,7 @@ module.exports = {
             ...customParams,
           }),
           {
-            expiresIn: getOr(15 * 60, ['params', 'signedUrlExpires'], config),
+            expiresIn: 3600,
           }
         );
 
